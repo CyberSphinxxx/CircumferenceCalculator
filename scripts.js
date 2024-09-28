@@ -1,7 +1,7 @@
 document.getElementById('submit_button').onclick = function() {
     let radius = document.getElementById('number_input_box').value;
     let pi = 3.14159;
-    
+
     if (radius > 0) {
         let circumference = 2 * pi * radius;
         document.getElementById('answer').textContent = 'Circumference: ' + circumference;
@@ -10,4 +10,9 @@ document.getElementById('submit_button').onclick = function() {
     else {
         document.getElementById('answer').textContent = 'Please enter a valid radius';
     }
+};
+
+document.getElementById('reset_button').onclick = function() {
+    document.getElementById('number_input_box').value = '';
+    document.getElementById('answer').textContent = '';
 };
