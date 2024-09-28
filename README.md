@@ -23,7 +23,10 @@ A simple web-based calculator that computes the circumference of a circle given 
 
 1. Enter `7` in the input box.
 2. Click "Calculate."
-3. The result will show: `Circumference: 43.98` (rounded to two decimal places).
+3. The result will show: `Circumference: 43.98226`
+
+![outputscreenshot](https://github.com/user-attachments/assets/6cebc0d2-c7a0-4da8-bea0-b4782fcfad97)
+
 
 ## Troubleshooting
 
