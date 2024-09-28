@@ -9,6 +9,8 @@ A simple web-based calculator that computes the circumference of a circle given 
 - **Responsive Design:** Works well on both desktop and mobile devices.
 - **How-To Guide:** Built-in instructions on how to use the calculator effectively.
 
+![application screenshot](https://github.com/user-attachments/assets/3a44cf6b-4566-4c4a-96d9-116396229119)
+
 ## How to Use
 
 1. **Open the Calculator:** Launch the calculator in your web browser.
@@ -16,12 +18,6 @@ A simple web-based calculator that computes the circumference of a circle given 
 3. **Click "Calculate":** The calculator will display the circumference.
 4. **View the Result:** The result is displayed below the button. Invalid inputs will prompt an error message.
 5. **Reset:** Click "Reset" to clear the input and result.
-
-## Example
-
-1. Enter `7` in the input box.
-2. Click "Calculate."
-3. The result will show: `Circumference: 43.98` (rounded to two decimal places).
 
 ## Example
 
