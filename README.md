@@ -38,3 +38,6 @@ A simple web-based calculator that computes the circumference of a circle given 
 
 - **HTML, CSS, JavaScript:** Core technologies for building the web app.
 - **GitHub Pages:** Host the calculator.
+
+## Contributing
+Feel free to contribute by forking the repository and submitting pull requests. Any enhancements or bug fixes are welcome!
