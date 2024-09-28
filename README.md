@@ -33,3 +33,8 @@ A simple web-based calculator that computes the circumference of a circle given 
 
 - **Invalid Input:** Ensure you enter a positive number.
 - **Empty Input:** The calculator will prompt you to enter a valid radius.
+
+## Technologies Used
+
+- **HTML, CSS, JavaScript:** Core technologies for building the web app.
+- **GitHub Pages:** Host the calculator.
