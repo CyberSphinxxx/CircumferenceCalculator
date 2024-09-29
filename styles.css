@@ -15,7 +15,7 @@ body {
     height: 100vh;
 }
 
-#main_container {
+#container {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
@@ -48,11 +48,6 @@ body {
     text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
 }
 
-#footer {
-    margin-top: auto;
-    padding: 10px;
-    text-align: center;
-}
 
 input {
     width: calc(100% - 24px);
@@ -160,4 +155,18 @@ button:active {
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     width: 100%;
+}
+
+#footer {
+    margin-top: 10px;
+    font-size: 0.9em;
+}
+
+#footer a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+#footer a:hover {
+    text-decoration: underline;
 }
