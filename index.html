@@ -8,46 +8,41 @@
 </head>
 <body>
 
-    <div id="calculator_container">
-        <h2 id="cir_area_title">Circumference and Area Calculator</h2>
-        <div class="calculator-type">
-            <label for="calculator_selector">Select Calculator:</label>
-            <select id="calculator_selector">
-                <option value="circumference">Circumference</option>
-                <option value="area">Area</option>
-            </select>
+    <div id="container">
+        <div id="calculator_container">
+            <h2>Circumference and Area Calculator</h2>
+            <input type="text" id="number_input_box" placeholder="Enter radius">
+            <div class="button-group">
+                <button id="submit_button">Calculate</button>
+                <button id="reset_button">Reset</button>
+            </div>
+            <h3 id="answer"></h3>
         </div>
-        <br>
-        <input type="text" id="number_input_box" placeholder="Enter radius">
-        <div class="button-group">
-            <button id="submit_button">Calculate</button>
-            <button id="reset_button">Reset</button>
+    
+        <div id="how_to_use">
+            <h2>How to Use This Calculator</h2>
+            <ol>
+                <li><strong>Select Calculator Type:</strong> Choose the type of calculation you want (e.g., Circumference or Area) from the dropdown menu.</li>
+                <li><strong>Enter the Value:</strong> Type the radius value in the input box (e.g., 5, 12.3).</li>
+                <li><strong>Click the "Calculate" Button:</strong> The calculator will perform the selected calculation and display the result.</li>
+                <li><strong>View the Result:</strong> The result will appear below the button. If your input is invalid, you'll see an error message.</li>
+                <li><strong>Reset if Needed:</strong> Click the "Reset" button to clear the input and result, and start over.</li>
+            </ol>
+            <p><strong>Example:</strong></p>
+            <ul>
+                <li>Select "Circumference" from the dropdown.</li>
+                <li>Enter <em>7</em> in the input box.</li>
+                <li>Click "Calculate."</li>
+                <li>Result: "Circumference: 43.98" (rounded to two decimal places).</li>
+            </ul>
+            <p><strong>Troubleshooting:</strong></p>
+            <ul>
+                <li><em>Invalid Input:</em> Ensure you enter a positive number.</li>
+                <li><em>Empty Input:</em> The calculator will prompt you to enter a valid value.</li>
+            </ul>
         </div>
-        <h3 id="answer"></h3>
     </div>
-
-    <div id="how_to_use">
-        <h2>How to Use This Calculator</h2>
-        <ol>
-            <li><strong>Select Calculator Type:</strong> Choose the type of calculation you want (e.g., Circumference or Area) from the dropdown menu.</li>
-            <li><strong>Enter the Value:</strong> Type the radius value in the input box (e.g., 5, 12.3).</li>
-            <li><strong>Click the "Calculate" Button:</strong> The calculator will perform the selected calculation and display the result.</li>
-            <li><strong>View the Result:</strong> The result will appear below the button. If your input is invalid, you'll see an error message.</li>
-            <li><strong>Reset if Needed:</strong> Click the "Reset" button to clear the input and result, and start over.</li>
-        </ol>
-        <p><strong>Example:</strong></p>
-        <ul>
-            <li>Select "Circumference" from the dropdown.</li>
-            <li>Enter <em>7</em> in the input box.</li>
-            <li>Click "Calculate."</li>
-            <li>Result: "Circumference: 43.98" (rounded to two decimal places).</li>
-        </ul>
-        <p><strong>Troubleshooting:</strong></p>
-        <ul>
-            <li><em>Invalid Input:</em> Ensure you enter a positive number.</li>
-            <li><em>Empty Input:</em> The calculator will prompt you to enter a valid value.</li>
-        </ul>
-    </div>
+    
 
     <footer id="footer">
         <p>Created by: <a href="https://github.com/CyberSphinxxx" target="_blank">John Lemar Gonzales</a></p>
