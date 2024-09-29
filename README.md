@@ -9,7 +9,7 @@ A simple web-based calculator that computes the circumference of a circle given 
 - **Responsive Design:** Works well on both desktop and mobile devices.
 - **How-To Guide:** Built-in instructions on how to use the calculator effectively.
 
-![application screenshot](https://github.com/user-attachments/assets/3a44cf6b-4566-4c4a-96d9-116396229119)
+![update v1 1 0](https://github.com/user-attachments/assets/3cb197c4-ea29-4879-8873-4a507ef1342a)
 
 ## How to Use
 
