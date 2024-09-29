@@ -1,24 +1,27 @@
 document.getElementById('submit_button').onclick = function() {
-    let radius = parseFloat(document.getElementById('number_input_box').value);
+    let radiusInput = document.getElementById('number_input_box').value;
+    let radius = parseFloat(radiusInput);
     let pi = 3.14159;
     let selectedCalculator = document.getElementById('calculator_selector').value;
+
+    if (radiusInput.trim() === '') {
+        document.getElementById('answer').textContent = 'Please enter a valid radius';
+        return;
+    }
 
     if (radius > 0) {
         if (selectedCalculator === 'circumference') {
             let circumference = 2 * pi * radius;
             document.getElementById('answer').textContent = 'Circumference: ' + circumference.toFixed(2);
-        }
-        
-        else if (selectedCalculator === 'area') {
+        } else if (selectedCalculator === 'area') {
             let area = pi * radius * radius;
             document.getElementById('answer').textContent = 'Area: ' + area.toFixed(2);
         }
-    }
-    
-    else {
+    } else {
         document.getElementById('answer').textContent = 'Please enter a valid radius';
     }
 };
+
 
 document.getElementById('calculator_selector').addEventListener('change', function() {
     let selectedCalculator = this.value;
