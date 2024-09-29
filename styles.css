@@ -2,7 +2,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: flex-start; /* Align items at the top */
+    justify-content: flex-start;
     padding: 20px;
     margin: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -12,16 +12,16 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     color: #333;
-    height: 100vh; /* Full height of viewport */
+    height: 100vh;
 }
 
-#container {
+#main_container {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    max-width: 1000px; /* Adjust as needed */
-    margin: auto; /* Center the container */
-    flex: 1; /* Allow the container to grow */
+    max-width: 1000px;
+    margin: auto;
+    flex: 1;
 }
 
 #calculator_container {
@@ -35,11 +35,12 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 20px; /* Reduced margin at the bottom */
+    margin-bottom: 20px;
     backdrop-filter: blur(10px);
     transition: all 0.3s ease;
     margin-top: 20px;
 }
+
 #calculator_container h2 {
     margin-bottom: 20px;
     font-size: 1.6em;
@@ -48,7 +49,7 @@ body {
 }
 
 #footer {
-    margin-top: auto; /* Push the footer to the bottom */
+    margin-top: auto;
     padding: 10px;
     text-align: center;
 }
@@ -149,4 +150,14 @@ button:active {
     color: #0066cc;
     margin-bottom: 15px;
     font-size: 1.6em;
+}
+
+#credits {
+    margin-top: 20px;
+    padding: 10px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
 }
