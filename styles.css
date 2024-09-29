@@ -13,6 +13,7 @@ body {
     background-attachment: fixed;
     color: #333;
     height: 100vh;
+    overflow: hidden;
 }
 
 #container {
