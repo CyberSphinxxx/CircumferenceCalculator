@@ -8,9 +8,16 @@
 </head>
 <body>
 
-    <div id="container">
+    <div id="main_container">
         <div id="calculator_container">
             <h2>Circumference and Area Calculator</h2>
+            <div class="calculator-type">
+                <label for="calculator_selector">Select Calculator:</label>
+                <select id="calculator_selector">
+                    <option value="circumference">Circumference</option>
+                    <option value="area">Area</option>
+                </select>
+            </div>
             <input type="text" id="number_input_box" placeholder="Enter radius">
             <div class="button-group">
                 <button id="submit_button">Calculate</button>
@@ -18,7 +25,7 @@
             </div>
             <h3 id="answer"></h3>
         </div>
-    
+        
         <div id="how_to_use">
             <h2>How to Use This Calculator</h2>
             <ol>
@@ -42,12 +49,11 @@
             </ul>
         </div>
     </div>
-    
 
-    <footer id="footer">
-        <p>Created by: <a href="https://github.com/CyberSphinxxx" target="_blank">John Lemar Gonzales</a></p>
-        <p>GitHub Repo: <a href="https://github.com/CyberSphinxxx/CircumferenceCalculator" target="_blank">Circumference Calculator</a></p>
-    </footer>
+    <p id="credits">
+        Created by: <a href="https://github.com/CyberSphinxxx" target="_blank">John Lemar Gonzales</a> | 
+        GitHub Repo: <a href="https://github.com/CyberSphinxxx/CircumferenceCalculator" target="_blank">Circumference Calculator</a>
+    </p>
 
     <script src="scripts.js"></script>
 </body>
